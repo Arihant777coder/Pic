@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FUN</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FUN">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Arihant The Great">
+  <link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Font+Name">
+  
+  <style>
+      body
+      {
+        background-color: whitesmoke;
+      }
+      header
+      {
+        background-color: white;
+        border-bottom: 1px brown;
+        width: 100%
+      }
+      header>pre
+      {
+        display: inline;
+        font-family: 'Jokerman', serif;
+        color:red;
+        text-shadow: 2px 2px 4px red; 
+        font-size: 30px;
+        letter-spacing: 3px;
+      }
+      header>span
+      {
+        text-align:center;
+        float: right;
+        text-shadow: 2px 2px 1px gray; 
+        font-family: 'Arial', cursive;
+        color:black;
+        font-size: 30px;
+      }
+      h3
+      {
+        padding-left: 10px;
+        font-size: 30px;
+      }
+      .nav 
+      {
+        overflow: hidden;
+        background-color: #333;
+      }
+      .nav a 
+      {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .nav a:hover 
+      {
+        background-color: #ddd;
+        color: black;
+      }
+      section.games
+      {
+        overflow:hidden;
+        background-color: chocolate;
+      }
+      div.solve
+      {
+        background-image: url("https://qph.fs.quoracdn.net/main-qimg-cee30b81333a1f4a84d28ae4fa3821f7");
+        overflow:hidden;
+        background-color: cadetblue;
+        padding: 10px,10px,10px,10px;
+      }
+      p.solve
+      {
+        padding: 5px;
+        color: black;
+        font-size: 4vw;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .column 
+      {
+        float: left;
+        width: 32%;
+        padding: 5px;
+      }
+      img.diff
+      {
+        display:block;
+        width: 15vw; 
+        height: 15vw; 
+        margin-left: auto; 
+        margin-right: auto;
+      }
+      p.games
+      {
+        font-weight:bold;
+        text-align: center; 
+        font-size: 1vw;  
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      @media screen and (max-width: 600px)
+      {
+        header 
+        {
+          text-align:center;     
+        }
+        header span
+        {
+          font-size: 0.001px;
+          text-shadow: 2px 2px 1px white; 
+          color:white;
+        }
+        h3
+        {
+          font-size: 20px;
+        }
+      }
+
+      @media screen and (max-width: 770px)
+      {
+        .column
+        {
+          width:100%; 
+        }
+        img.diff
+        {
+          width:100%;
+          height:60vw;
+        }
+        p.games
+        {
+          font-size:3vw;
+        }
+      }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <pre>FUN.com</pre>
+    <span>The all in one website</span> 
+    <marquee height=20vw style="background-color: darkslategrey; border: 3px solid yellow"behavior="alternate" scrollamount="50"><img src = "Ass.png" width=30px height=20px></img></marquee>
+  </header>
+
+  <div class="nav">
+    <a href="#">Menu</a>
+    <a href="#">About</a>
+    <a href="#">Other</a>
+  </div>
+  
+  <section class="games">
+    <h3>  Play Games</h3>
+    <div class="column">
+      <img class="diff" src="https://miro.medium.com/max/1600/1*dQzFEaAHwxouaImAuUd3EQ.gif">
+      <p class="games">Snake</p>
+    </div>
+    <div class="column">
+      <a href="https://www.google.com/">
+        <img class="diff" src="https://cdn.mangobaaz.com/wp-content/uploads/2018/01/5.gif">
+      </a>
+      <p class="games">Ludo</p>
+    </div>
+    <div class="column">
+      <img class="diff" src="https://i.gifer.com/f0u.gif">
+      <p class="games">Brick</p>
+    </div>
+  </section>
+
+  <div class="solve">
+      <h3>  Equation Solver</h3> 
+      <p class="solve">This content is coming soon!</p> 
+  </div>
+
+</body>
+</html>
